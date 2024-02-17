@@ -17,7 +17,7 @@ As described in the official [Quickstart](https://docs.github.com/en/pages/quick
 
 To add a [Jekyll Theme](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll) you just need to
 
-1. add a file named `_config.yml` to the root of the repository with the content
+1. add a file named `_config.yml` to the root of the repository with the theme name, e.g.
 
 ```yml
 theme: jekyll-theme-minimal
