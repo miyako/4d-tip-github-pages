@@ -1,4 +1,3 @@
-# 4d-tip-github-pages
 How to add 4D code highlight to GitHub Pages.
 
 # Introduction
