@@ -58,3 +58,10 @@ node tools/build.js 4d css javascript xml json sql yaml php
 <script>hljs.highlightAll();</script>
 ```
 
+10. Add lines to `_config.yml` to disable the default syntax highlighter
+
+```yml
+kramdown:
+  syntax_highlighter_opts:
+    disable : true
+```
