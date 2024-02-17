@@ -65,3 +65,16 @@ kramdown:
   syntax_highlighter_opts:
     disable : true
 ```
+
+# Result 
+
+```4d
+$param:=New object
+// Close the process after 2s if not already terminated
+$param.timeout:=2
+// Start the system worker with the parameter defined above
+$sys:=4D.SystemWorker.new("git --version";$param)
+
+// Wait for the end or the process and return the response from Git
+ALERT($sys.wait().response)
+```
