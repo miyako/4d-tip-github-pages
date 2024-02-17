@@ -47,3 +47,14 @@ node tools/build.js 4d css javascript xml json sql yaml php
 6. Add an `assets/css` folder to the root of the repository
 
 7. Copy the styles in `src/styles` to this folder
+
+8. Add a `_includes/head-custom.html` file to the root of the repository. The HTML snippet in this file is added to the page. 
+
+9. Add references to `highlight.min.js` and the style of your choice, e.g. 
+
+```html
+<link rel="stylesheet" href="{{ 'assets/css/base16/gigavolt.css' | relative_url }}">
+<script type="text/javascript" src="{{ '/assets/js/highlight.min.js' | relative_url }}"></script>
+<script>hljs.highlightAll();</script>
+```
+
