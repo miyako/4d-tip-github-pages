@@ -15,6 +15,6 @@ As described in the official [Quickstart](https://docs.github.com/en/pages/quick
 
 …and that's it.
 
-To apply a Jekyll Theme
+To add a [Jekyll Theme](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll) you just need to
 
 1. add `_config.yml` to the root of the repository
