@@ -34,7 +34,7 @@ First, goto [highlightjs/highlight.js](https://github.com/highlightjs/highlight.
 
 Next, follow the [instruction](https://highlightjs.readthedocs.io/en/latest/building-testing.html) to build `highlight.js`.
 
-You can specify the languages you want to include in the build, e.g.
+Open Terminal at the root of the repository. You can specify the languages you want to include in the build, e.g. 
 
 ```
 node tools/build.js 4d css javascript xml json sql yaml php
