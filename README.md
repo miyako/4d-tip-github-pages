@@ -17,8 +17,26 @@ As described in the official [Quickstart](https://docs.github.com/en/pages/quick
 
 To add a [Jekyll Theme](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll) you just need to
 
-1. add a file named `_config.yml` to the root of the repository with the theme name, e.g.
+1. add a file named `_config.yml` to the root of the repository
+2. add a line to the file that specifies one of the [supported themes](https://pages.github.com/themes/), e.g.
 
 ```yml
 theme: jekyll-theme-minimal
 ```
+
+You can also add 4D code to the page using markdown, but here is the problem; syntax highlighting is not applies on GitHub Pages.
+
+This is because the default syntax highlighter does not support the 4D language.
+
+# Solution
+
+First, goto [highlightjs/highlight.js](https://github.com/highlightjs/highlight.js) and clone the repository. This library supports the 4D language.
+
+Next, follow the [instruction](https://highlightjs.readthedocs.io/en/latest/building-testing.html) to build `highlight.js`.
+
+You can specify the languages you want to include in the build, e.g.
+
+```
+node tools/build.js 4d css javascript xml json sql yaml php
+```
+
