@@ -9,4 +9,12 @@ As described in the official [Quickstart](https://docs.github.com/en/pages/quick
 
 1. Click **Settings**
 2. Click Code and automation > **Pages**
-3. 
+3. Select **main** branch, **/ (root)** path, and save
+
+<img src="https://github.com/miyako/4d-tip-github-pages/assets/1725068/0a7ceb19-09a9-420c-bd29-630639c1b982" height="40" />
+
+…and that's it.
+
+To apply a Jekyll Theme
+
+1. add `_config.yml` to the root of the repository
