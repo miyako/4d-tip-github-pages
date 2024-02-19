@@ -23,7 +23,7 @@ To add a [Jekyll Theme](https://docs.github.com/en/pages/setting-up-a-github-pag
 theme: jekyll-theme-minimal
 ```
 
-You can also add 4D code to the page using markdown, but here is the problem; syntax highlighting is not applies on GitHub Pages.
+You can also add 4D code to the page using markdown, but here is the problem; syntax highlighting is not applied.
 
 This is because the default syntax highlighter does not support the 4D language.
 
